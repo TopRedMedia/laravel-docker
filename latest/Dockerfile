@@ -18,6 +18,10 @@ RUN apk add --no-cache \
     gcc \
     git \
     imagemagick \
+    xvfb  \
+    firefox  \
+    dbus  \
+    ttf-dejavu \
     libc-dev \
     libpng-dev \
     make \

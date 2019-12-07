@@ -18,6 +18,10 @@ RUN apk add --no-cache \
     gcc \
     git \
     imagemagick \
+    xvfb  \
+    firefox  \
+    dbus  \
+    ttf-dejavu \
     libc-dev \
     libpng-dev \
     make \
@@ -30,7 +34,7 @@ RUN apk add --no-cache \
     rsync \
     zlib-dev \
     libzip-dev
-
+    
 # Install PECL and PEAR extensions
 RUN pecl install \
     imagick
