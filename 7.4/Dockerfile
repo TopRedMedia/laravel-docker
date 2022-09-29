@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-FROM php:7.4-alpine
+FROM php:7.4.32-alpine
 
 # Install dev dependencies
 RUN apk add --no-cache --virtual .build-deps \
@@ -30,7 +30,7 @@ RUN apk add --no-cache \
     nodejs \
     nodejs-npm \
 =======
-FROM php:7.4.27-alpine3.15
+FROM php:7.4.32-alpine3.15
 
 # Add docker-php-extension-installer script
 ADD https://github.com/mlocati/docker-php-extension-installer/releases/latest/download/install-php-extensions /usr/local/bin/
